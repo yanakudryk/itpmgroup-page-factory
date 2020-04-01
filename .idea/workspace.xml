@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9215c07-e084-4faf-bc4d-fd30bbdd1292" name="Default Changelist" comment="" />
+    <list default="true" id="f9215c07-e084-4faf-bc4d-fd30bbdd1292" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -30,6 +37,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ZkVMuA8Dv363y0v8yLEhk353ik" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -174,25 +183,25 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/-1920.-237.1920.1040@0.0.1280.680" timestamp="1585390632359" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1585779887731">
+    <state width="1877" height="369" key="GridCell.Tab.0.bottom" timestamp="1585780709743">
       <screen x="-1920" y="-237" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585779887731" />
+    <state width="1877" height="369" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585780709743" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.-237.1920.1040@0.0.1280.680" timestamp="1585475856742" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1585779887730">
+    <state width="1877" height="369" key="GridCell.Tab.0.center" timestamp="1585780709742">
       <screen x="-1920" y="-237" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585779887730" />
+    <state width="1877" height="369" key="GridCell.Tab.0.center/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585780709742" />
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/-1920.-237.1920.1040@0.0.1280.680" timestamp="1585475856742" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1585779887730">
+    <state width="1877" height="369" key="GridCell.Tab.0.left" timestamp="1585780709742">
       <screen x="-1920" y="-237" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585779887730" />
+    <state width="1877" height="369" key="GridCell.Tab.0.left/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585780709742" />
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/-1920.-237.1920.1040@0.0.1280.680" timestamp="1585475856742" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1585779887730">
+    <state width="1877" height="369" key="GridCell.Tab.0.right" timestamp="1585780709743">
       <screen x="-1920" y="-237" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585779887730" />
+    <state width="1877" height="369" key="GridCell.Tab.0.right/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585780709743" />
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/-1920.-237.1920.1040@0.0.1280.680" timestamp="1585475856742" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585779887731">
       <screen x="-1920" y="-237" width="1920" height="1040" />
@@ -210,10 +219,10 @@
       <screen x="-1920" y="-237" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585779887731" />
-    <state x="-1707" y="-237" key="SettingsEditor" timestamp="1585779798021">
+    <state x="-1707" y="-237" key="SettingsEditor" timestamp="1585780696125">
       <screen x="-1920" y="-237" width="1920" height="1040" />
     </state>
-    <state x="-1707" y="-237" key="SettingsEditor/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585779798021" />
+    <state x="-1707" y="-237" key="SettingsEditor/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585780696125" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1920.-237.1920.1040@0.0.1280.680" timestamp="1585470300556" />
     <state x="-1264" y="107" key="com.intellij.ide.util.TipDialog" timestamp="1585779963811">
       <screen x="-1920" y="-237" width="1920" height="1040" />
