@@ -3,7 +3,10 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 import pages.basePage.BasePage;
+
+import java.util.List;
 
 public class DealsPage extends BasePage {
 
@@ -28,6 +31,8 @@ public class DealsPage extends BasePage {
     private WebElement dealProvider;
     @FindBy(xpath = "//*[@class='btn btn-info']")
     private WebElement createButton;
+    @FindBy(xpath = "//*[@name='delete']")
+    private WebElement deleteButton;
     @FindBy(xpath = "//tbody/tr[last()]/td[1]")
     private WebElement tableDateValue;
     @FindBy(xpath = "//tbody/tr[last()]/td[2]")
@@ -36,6 +41,8 @@ public class DealsPage extends BasePage {
     private WebElement tableBuyerValue;
     @FindBy(xpath = "//tbody/tr[last()]/td[4]")
     private WebElement tableSupplier;
+    @FindBy(xpath = "//tr/td[2]")
+    private List<WebElement> dealsTypeList;
 
     public DealsPage(WebDriver webDriver){
         super(webDriver);
@@ -85,5 +92,30 @@ public class DealsPage extends BasePage {
     }
     public String getDealSupplierFromTable(){
         return action.getText(tableSupplier);
+    }
+
+    private WebElement findDealByType(String type) {
+        for (int i = 0; i < dealsTypeList.size(); i++) {
+            if (action.getText(dealsTypeList.get(i)).contentEquals(type)) {
+                return dealsTypeList.get(i);
+            }
+        }
+        return null;
+    }
+
+    public void deleteDeal(){
+        action.clickButton(deleteButton);
+    }
+    public boolean isDealExistsByType(String type){
+        for (int i = 0; i < dealsTypeList.size(); i++) {
+            if (action.getText(dealsTypeList.get(i)).contentEquals(type)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void openDealByType(String type){
+        action.clickButton(findDealByType(type));
     }
 }

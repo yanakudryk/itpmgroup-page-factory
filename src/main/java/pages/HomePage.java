@@ -21,6 +21,12 @@ public class HomePage extends BasePage {
     private WebElement parts;
     @FindBy(id = "prov_cus")
     private WebElement dealParties;
+    @FindBy(id = "deal_type")
+    private WebElement dealTypes;
+    @FindBy(xpath= "//*[@class=\'dropdown user user-menu\']")
+    private WebElement profile;
+    @FindBy(xpath = "//a[text()='Выход']")
+    private WebElement logout;
 
     public HomePage(WebDriver webDriver){
         super(webDriver);
@@ -29,9 +35,8 @@ public class HomePage extends BasePage {
     public boolean isUserDisplayed(){
         return action.isDisplayedElement(user);
     }
-    public DealsPage clickDealsButton(){
+    public void clickDealsButton(){
         action.clickButton(dealsMenu);
-        return new DealsPage(webDriver);
     }
     public void clickDictionary(){
         action.clickButton(dictionary);
@@ -42,10 +47,19 @@ public class HomePage extends BasePage {
     public void clickEmployees(){
         action.clickButton(employees);
     }
+    public void clickProfile(){
+        action.clickButton(profile);
+    }
+    public void clickLogout(){
+        action.clickButton(logout);
+    }
     public void clickParts(){
         action.clickButton(parts);
     }
     public void clickDealParties(){
         action.clickButton(dealParties);
+    }
+    public void clickDealTypes(){
+        action.clickButton(dealTypes);
     }
 }

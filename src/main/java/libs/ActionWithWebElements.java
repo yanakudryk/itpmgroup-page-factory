@@ -22,67 +22,76 @@ public class ActionWithWebElements {
 
     public void inputText(WebElement element, String text){
         try {
+            wait.until(ExpectedConditions.visibilityOfAllElements(element));
             element.clear();
             element.sendKeys(text);
-            logger.info("Successful inputting.");
+            logger.info("Successful inputting " + text);
         }
         catch (Exception ex){
             ex.printStackTrace();
-            logger.error("Something went wrong during inputting.");
+            logger.error("Something went wrong during inputting " + text);
         }
 
     }
     public void clickButton(WebElement element){
         try{
             wait.until(ExpectedConditions.elementToBeClickable(element));
+            String getText = element.getText();
             element.click();
-            logger.info("Successful clicking. ");
+            logger.info("Successful clicking on " + getText);
         }
         catch (Exception ex){
             ex.printStackTrace();
-            logger.error("Something went wrong during clicking.");
+            logger.error("Something went wrong during clicking");
         }
 
     }
     public boolean isDisplayedElement(WebElement element){
         boolean result = false;
         try{
+            wait.until(ExpectedConditions.visibilityOfAllElements(element));
+            String getText = element.getText();
             result = element.isDisplayed();
-            logger.info("Successful displaying checking.");
+            logger.info("Successful displaying checking displaying element " + getText);
             return result;
         }
         catch (Exception ex){
             ex.printStackTrace();
-            logger.error("Something went wrong during checking element displaying.");
+            logger.error("Something went wrong during checking displaying element");
             return result;
         }
     }
     public void selectElementFromDropDown(WebElement element, String value){
         try{
+            wait.until(ExpectedConditions.visibilityOfAllElements(element));
+            String getText = element.getText();
             Select dropDownValue = new Select(element);
             dropDownValue.selectByVisibleText(value);
-            logger.info("Successful selecting from drop down.");
+            logger.info("Successful selecting from drop down value " + value);
         }
         catch (Exception ex){
+            String getText = element.getText();
             ex.printStackTrace();
-            logger.error("Something went wrong during selecting from drop down.");
+            logger.error("Something went wrong during selecting from drop down");
         }
 
     }
 
     public void setCheckBox(WebElement element, Boolean state){
         try{
+            wait.until(ExpectedConditions.visibilityOfAllElements(element));
+            String getText = element.getText();
             if(state){
-                if(!element.isEnabled()){
+                if(!element.isSelected()){
                     element.click();
                 }
             }
             if(!state){
-                if(element.isEnabled()){
+                if(element.isSelected()){
                     element.click();
                 }
             }
-            logger.info("Successful checking check-box.");
+            logger.info("Successful setting check-box " + getText + " to state " + state);
         }
         catch (Exception ex){
             ex.printStackTrace();
@@ -93,11 +102,29 @@ public class ActionWithWebElements {
     public String getText(WebElement element){
         String result = null;
         try{
+            wait.until(ExpectedConditions.visibilityOfAllElements(element));
             result = element.getText();
         }
         catch (Exception ex){
             ex.printStackTrace();
             logger.error("Something went wrong during getting text.");
+        }
+        return result;
+    }
+
+    public boolean isElementSelected(WebElement element){
+        boolean result = false;
+        try{
+            wait.until(ExpectedConditions.visibilityOfAllElements(element));
+            String getText = element.getText();
+            if (element.isSelected()){
+                result = true;
+            }
+            logger.info("Successful checking if element " + getText + "is selected");
+        }
+        catch (Exception ex){
+            ex.printStackTrace();
+            logger.error("Something went wrong during checking if element is selected");
         }
         return result;
     }
@@ -117,6 +144,7 @@ public class ActionWithWebElements {
     }
     public void selectRadioButton(List<WebElement> elements, String text){
         try {
+            wait.until(ExpectedConditions.visibilityOfAllElements(elements));
             List<WebElement> radioButtons = elements;
             int numberOfRadioButtons = radioButtons.size();
             for (int i = 0; i < numberOfRadioButtons; i++) {

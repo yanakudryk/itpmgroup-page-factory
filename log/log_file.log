@@ -1,129 +1,83 @@
-2020-02-04 01:34:12   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-02-04 01:34:12   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-02-04 01:34:13   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-02-04 01:34:13   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-02-04 01:34:14   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-02-04 01:34:15   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-02-04 01:34:15   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-02-04 01:34:15   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-02-04 01:34:15   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-02-04 01:34:16   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-02-04 01:34:16   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-02-04 01:38:40   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-02-04 01:38:41   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-02-04 01:38:43   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-02-04 01:38:43   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-02-04 01:38:44   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-02-04 01:38:44   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-02-04 01:38:45   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-02-04 01:38:45   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-02-04 01:38:45   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-02-04 01:38:45   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-02-04 01:38:46   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:05:26   INFO [pages.LoginPage] : Page login was opened.
-2020-04-04 14:05:27   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:05:28   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:05:32   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:05:35   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:05:37   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:05:38   INFO [libs.ActionWithWebElements] : Successful selecting from drop down.
-2020-04-04 14:05:39   INFO [libs.ActionWithWebElements] : Successful selecting from drop down.
-2020-04-04 14:05:40   INFO [libs.ActionWithWebElements] : Successful selecting from drop down.
-2020-04-04 14:05:41   INFO [libs.ActionWithWebElements] : Successful selecting from drop down.
-2020-04-04 14:05:42   INFO [libs.ActionWithWebElements] : Successful selecting from drop down.
-2020-04-04 14:05:43   INFO [libs.ActionWithWebElements] : Successful selecting from drop down.
-2020-04-04 14:05:44   INFO [libs.ActionWithWebElements] : Successful selecting from drop down.
-2020-04-04 14:05:44   INFO [libs.ActionWithWebElements] : Successful selecting from drop down.
-2020-04-04 14:05:48   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:06:02   INFO [pages.LoginPage] : Page login was opened.
-2020-04-04 14:06:03   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:06:04   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:06:08   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:06:09   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:06:12   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:06:14   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:06:15   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:06:16   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:06:26  ERROR [libs.ActionWithWebElements] : Something went wrong during clicking.
-2020-04-04 14:06:26  ERROR [libs.ActionWithWebElements] : Something went wrong during getting text.
-2020-04-04 14:06:40   INFO [pages.LoginPage] : Page login was opened.
-2020-04-04 14:06:41   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:06:42   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:06:46   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:06:47   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:06:49   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:06:51   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:06:52   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:06:53   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:06:54   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:06:55   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:06:57   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:07:10   INFO [pages.LoginPage] : Page login was opened.
-2020-04-04 14:07:11   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:07:12   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:07:15   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:07:15   INFO [libs.ActionWithWebElements] : Successful displaying checking.
-2020-04-04 14:07:27   INFO [pages.LoginPage] : Page login was opened.
-2020-04-04 14:07:28   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:07:28   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:07:30   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:07:30  ERROR [libs.ActionWithWebElements] : Something went wrong during checking element displaying.
-2020-04-04 14:15:09   INFO [pages.LoginPage] : Page login was opened.
-2020-04-04 14:15:11   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:15:12   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:15:15   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:15:17   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:15:19   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:15:20   INFO [libs.ActionWithWebElements] : Successful selecting from drop down.
-2020-04-04 14:15:21   INFO [libs.ActionWithWebElements] : Successful selecting from drop down.
-2020-04-04 14:15:22   INFO [libs.ActionWithWebElements] : Successful selecting from drop down.
-2020-04-04 14:15:22   INFO [libs.ActionWithWebElements] : Successful selecting from drop down.
-2020-04-04 14:15:23   INFO [libs.ActionWithWebElements] : Successful selecting from drop down.
-2020-04-04 14:15:24   INFO [libs.ActionWithWebElements] : Successful selecting from drop down.
-2020-04-04 14:15:24   INFO [libs.ActionWithWebElements] : Successful selecting from drop down.
-2020-04-04 14:15:25   INFO [libs.ActionWithWebElements] : Successful selecting from drop down.
-2020-04-04 14:15:27   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:15:39   INFO [pages.LoginPage] : Page login was opened.
-2020-04-04 14:15:40   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:15:41   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:15:44   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:15:45   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:15:48   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:15:50   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:15:51   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:15:51   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:15:53   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:16:07   INFO [pages.LoginPage] : Page login was opened.
-2020-04-04 14:16:08   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:16:09   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:16:11   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:16:12   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:16:15   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:16:16   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:16:18   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:16:18   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:16:19   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:16:20   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:16:21   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:16:35   INFO [pages.LoginPage] : Page login was opened.
-2020-04-04 14:16:36   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:16:37   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:16:40   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:16:41   INFO [libs.ActionWithWebElements] : Successful displaying checking.
-2020-04-04 14:16:54   INFO [pages.LoginPage] : Page login was opened.
-2020-04-04 14:16:55   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:16:55   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:16:57   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:16:57  ERROR [libs.ActionWithWebElements] : Something went wrong during checking element displaying.
-2020-04-04 14:48:31   INFO [pages.LoginPage] : Page login was opened.
-2020-04-04 14:48:32   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:48:33   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:48:35   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:49:44   INFO [pages.LoginPage] : Page login was opened.
-2020-04-04 14:49:45   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:49:46   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:49:49   INFO [libs.ActionWithWebElements] : Successful clicking. 
-2020-04-04 14:50:41   INFO [pages.LoginPage] : Page login was opened.
-2020-04-04 14:50:42   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:50:43   INFO [libs.ActionWithWebElements] : Successful inputting.
-2020-04-04 14:50:46   INFO [libs.ActionWithWebElements] : Successful clicking. 
+2020-04-04 21:04:45   INFO [pages.LoginPage] : Page login was opened.
+2020-04-04 21:04:45   INFO [libs.ActionWithWebElements] : Successful inputting Student
+2020-04-04 21:04:46   INFO [libs.ActionWithWebElements] : Successful inputting 909090
+2020-04-04 21:04:47   INFO [libs.ActionWithWebElements] : Successful clicking on Вход
+2020-04-04 21:04:47   INFO [libs.ActionWithWebElements] : Successful clicking on Словари
+2020-04-04 21:04:48   INFO [libs.ActionWithWebElements] : Successful clicking on Типы сделок
+2020-04-04 21:04:49   INFO [libs.ActionWithWebElements] : Successful clicking on 
+2020-04-04 21:04:59  ERROR [libs.ActionWithWebElements] : Something went wrong during clicking
+2020-04-04 21:04:59   INFO [libs.ActionWithWebElements] : Successful inputting SEzJkZCM
+2020-04-04 21:05:00   INFO [libs.ActionWithWebElements] : Successful clicking on Создать
+2020-04-04 21:05:01   INFO [libs.ActionWithWebElements] : Successful clicking on Сделки
+2020-04-04 21:05:01   INFO [libs.ActionWithWebElements] : Successful clicking on 
+2020-04-04 21:05:02   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value 05
+2020-04-04 21:05:02   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value марта
+2020-04-04 21:05:02   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value 2020
+2020-04-04 21:05:03   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value 06
+2020-04-04 21:05:03   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value 08
+2020-04-04 21:05:03   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value SEzJkZCM
+2020-04-04 21:05:04   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value ЧП "Ремонт автоматов"
+2020-04-04 21:05:04   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value ОАО "МММ"
+2020-04-04 21:05:05   INFO [libs.ActionWithWebElements] : Successful clicking on Создать
+2020-04-04 21:15:06   INFO [pages.LoginPage] : Page login was opened.
+2020-04-04 21:15:07   INFO [libs.ActionWithWebElements] : Successful inputting Student
+2020-04-04 21:15:07   INFO [libs.ActionWithWebElements] : Successful inputting 909090
+2020-04-04 21:15:08   INFO [libs.ActionWithWebElements] : Successful clicking on Вход
+2020-04-04 21:15:08   INFO [libs.ActionWithWebElements] : Successful clicking on Словари
+2020-04-04 21:15:09   INFO [libs.ActionWithWebElements] : Successful clicking on Типы сделок
+2020-04-04 21:15:10   INFO [libs.ActionWithWebElements] : Successful clicking on 
+2020-04-04 21:15:10   INFO [libs.ActionWithWebElements] : Successful inputting KYOVDhMw
+2020-04-04 21:15:11   INFO [libs.ActionWithWebElements] : Successful clicking on Создать
+2020-04-04 21:15:12   INFO [libs.ActionWithWebElements] : Successful clicking on Сделки
+2020-04-04 21:15:13   INFO [libs.ActionWithWebElements] : Successful clicking on 
+2020-04-04 21:15:13   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value 05
+2020-04-04 21:15:13   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value марта
+2020-04-04 21:15:14   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value 2020
+2020-04-04 21:15:14   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value 06
+2020-04-04 21:15:14   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value 08
+2020-04-04 21:15:15   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value KYOVDhMw
+2020-04-04 21:15:15   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value ЧП "Ремонт автоматов"
+2020-04-04 21:15:15   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value ОАО "МММ"
+2020-04-04 21:15:16   INFO [libs.ActionWithWebElements] : Successful clicking on Создать
+2020-04-04 21:23:11   INFO [pages.LoginPage] : Page login was opened.
+2020-04-04 21:23:12   INFO [libs.ActionWithWebElements] : Successful inputting Student
+2020-04-04 21:23:12   INFO [libs.ActionWithWebElements] : Successful inputting 909090
+2020-04-04 21:23:13   INFO [libs.ActionWithWebElements] : Successful clicking on Вход
+2020-04-04 21:23:13   INFO [libs.ActionWithWebElements] : Successful clicking on Словари
+2020-04-04 21:23:15   INFO [libs.ActionWithWebElements] : Successful clicking on Типы сделок
+2020-04-04 21:23:15   INFO [libs.ActionWithWebElements] : Successful clicking on 
+2020-04-04 21:23:16   INFO [libs.ActionWithWebElements] : Successful inputting RKNVFmhR
+2020-04-04 21:23:16   INFO [libs.ActionWithWebElements] : Successful clicking on Создать
+2020-04-04 21:23:17   INFO [libs.ActionWithWebElements] : Successful clicking on Сделки
+2020-04-04 21:23:18   INFO [libs.ActionWithWebElements] : Successful clicking on 
+2020-04-04 21:23:18   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value 05
+2020-04-04 21:23:18   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value марта
+2020-04-04 21:23:19   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value 2020
+2020-04-04 21:23:19   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value 06
+2020-04-04 21:23:19   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value 08
+2020-04-04 21:23:20   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value RKNVFmhR
+2020-04-04 21:23:20   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value ЧП "Ремонт автоматов"
+2020-04-04 21:23:21   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value ОАО "МММ"
+2020-04-04 21:23:21   INFO [libs.ActionWithWebElements] : Successful clicking on Создать
+2020-04-04 21:29:49   INFO [pages.LoginPage] : Page login was opened.
+2020-04-04 21:29:50   INFO [libs.ActionWithWebElements] : Successful inputting Student
+2020-04-04 21:29:50   INFO [libs.ActionWithWebElements] : Successful inputting 909090
+2020-04-04 21:29:51   INFO [libs.ActionWithWebElements] : Successful clicking on Вход
+2020-04-04 21:29:51   INFO [libs.ActionWithWebElements] : Successful clicking on Словари
+2020-04-04 21:29:52   INFO [libs.ActionWithWebElements] : Successful clicking on Типы сделок
+2020-04-04 21:29:53   INFO [libs.ActionWithWebElements] : Successful clicking on 
+2020-04-04 21:29:53   INFO [libs.ActionWithWebElements] : Successful inputting HOUSXZZp
+2020-04-04 21:29:54   INFO [libs.ActionWithWebElements] : Successful clicking on Создать
+2020-04-04 21:29:55   INFO [libs.ActionWithWebElements] : Successful clicking on Сделки
+2020-04-04 21:29:55   INFO [libs.ActionWithWebElements] : Successful clicking on 
+2020-04-04 21:29:56   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value 05
+2020-04-04 21:29:56   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value марта
+2020-04-04 21:29:56   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value 2020
+2020-04-04 21:29:57   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value 06
+2020-04-04 21:29:57   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value 08
+2020-04-04 21:29:57   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value HOUSXZZp
+2020-04-04 21:29:58   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value ЧП "Ремонт автоматов"
+2020-04-04 21:29:58   INFO [libs.ActionWithWebElements] : Successful selecting from drop down value ОАО "МММ"
+2020-04-04 21:29:59   INFO [libs.ActionWithWebElements] : Successful clicking on Создать
+2020-04-04 21:30:22   INFO [libs.ActionWithWebElements] : Successful clicking on HOUSXZZp
+2020-04-04 21:30:23   INFO [libs.ActionWithWebElements] : Successful clicking on Удалить

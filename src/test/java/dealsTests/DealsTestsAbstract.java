@@ -1,11 +1,12 @@
 package dealsTests;
 
 import baseTests.AbstractBaseTests;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Test;
 import pages.DealsPage;
 import pages.HomePage;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class DealsTestsAbstract extends AbstractBaseTests {
 
@@ -29,5 +30,35 @@ public class DealsTestsAbstract extends AbstractBaseTests {
         assertEquals("Deal type is not equal.", type, dealsPage.getDealTypeFromTable());
         assertEquals("Deal customer is not equal.", customer, dealsPage.getDealBuyerFromTable());
         assertEquals("Deal provider is not equal.", provider, dealsPage.getDealSupplierFromTable());
+    }
+    @Test
+    public void deletingDeal(){
+        String day = "05";
+        String month = "марта";
+        String monthNum = "03";
+        String year = "2020";
+        String hour = "06";
+        String minute = "08";
+        String randomDealType = RandomStringUtils.random(8, true, false);
+        String customer = "ЧП \"Ремонт автоматов\"";
+        String provider = "ОАО \"МММ\"";
+
+        loginPage.openPage();
+        loginPage.login("Student", "909090");
+
+        homePage.clickDictionary();
+        homePage.clickDealTypes();
+
+        dealTypePage.createDealType(randomDealType);
+
+        homePage.clickDealsButton();
+
+        dealsPage.createDeal(day, month, year, hour, minute, randomDealType, customer, provider);
+        assertTrue("Deal was not created.", dealsPage.isDealExistsByType(randomDealType));
+
+        dealsPage.openDealByType(randomDealType);
+        dealsPage.deleteDeal();
+        assertFalse("Deal was not deleted.", dealsPage.isDealExistsByType(randomDealType));
+
     }
 }

@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class LoginTest extends AbstractBaseTests {
+public class LoginTests extends AbstractBaseTests {
     @Test
     public void validLogin(){
         loginPage.openPage();

@@ -16,6 +16,7 @@ public class AbstractBaseTests {
     protected DealPartiesPage dealPartiesPage;
     protected EmployeesPage employeesPage;
     protected PartsPage partsPage;
+    protected DealTypePage dealTypePage;
 
     @Before
     public void SetUp(){
@@ -27,6 +28,7 @@ public class AbstractBaseTests {
         dealPartiesPage = new DealPartiesPage(webDriver);
         employeesPage = new EmployeesPage(webDriver);
         partsPage = new PartsPage(webDriver);
+        dealTypePage = new DealTypePage(webDriver);
     }
 
     private WebDriver driverInit() {

@@ -42,4 +42,55 @@ public class DealPartiesPage extends BasePage {
     public DealPartiesPage(WebDriver webDriver){
         super(webDriver);
     }
+    public void clickAddButton(){
+        action.clickButton(addButton);
+    }
+    public void setCustomerName(String name){
+        action.inputText(custNameField, name);
+    }
+    public void setCustomerAddress(String address){
+        action.inputText(custAddressField, address);
+    }
+    public void setCustomerPhone(String phone) {
+        action.inputText(custPhoneField, phone);
+    }
+    public void setPrivatePersonCheckBox(boolean state){
+        action.setCheckBox(privatePersonCheckBox, state);
+    }
+    public void setIsOurFirmCheckBox(boolean state){
+        action.setCheckBox(isOurFirmCheckBox, state);
+    }
+    public void clickCreateButton(){
+        action.clickButton(createButton);
+    }
+    public void createDealPart(String name, String address, String phone, boolean stateOfIsPrivate, boolean stateOfIsOurFirm){
+        clickAddButton();
+        setCustomerName(name);
+        setCustomerAddress(address);
+        setCustomerPhone(phone);
+        setPrivatePersonCheckBox(stateOfIsPrivate);
+        setIsOurFirmCheckBox(stateOfIsOurFirm);
+        clickCreateButton();
+    }
+    public String getDealPartName(){
+        return action.getText(tableNameValue);
+    }
+    public String getDealPartAddress(){
+        return action.getText(tableAddressValue);
+    }
+    public String getDealPartPhone(){
+        return action.getText(tablePhoneValue);
+    }
+    public boolean isPrivate(){
+        if (action.getText(tablePrivatePersonValue).equals("1")) {
+            return true;
+        }
+        else return false;
+    }
+    public boolean isPrivateDisplayed(){
+        if(action.isDisplayedElement(tablePrivatePersonValue)){
+            return true;
+        }
+        else return false;
+    }
 }
