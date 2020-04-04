@@ -3,21 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f9215c07-e084-4faf-bc4d-fd30bbdd1292" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log_file.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/libs/ActionWithWebElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libs/ActionWithWebElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DealPartiesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DealPartiesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DealsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DealsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseTests/AbstractBaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTests/AbstractBaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dealsTests/DealsTestsAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dealsTests/DealsTestsAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/loginTests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loginTests/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/libs/ActionWithWebElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/libs/ActionWithWebElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/DealPartiesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DealPartiesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/DealsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DealsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/PartsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/PartsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dealsTests/DealsTestsAbstract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dealsTests/DealsTestsAbstract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/loginTests/LoginTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
