@@ -1,42 +1,46 @@
 package pages;
 
-import libs.ActionWithWebElements;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import pages.basePage.BasePage;
 
-public class HomePage {
-    private WebDriver webDriver;
-    private ActionWithWebElements action;
-    private By user = By.xpath(".//*[@class = 'pull-left info']");
+public class HomePage extends BasePage {
 
-    private By dealsMenu = By.id("deal");
-    private By dictionary = By.id("dictionary");
-    private By devices = By.id("apparat");
-    private By employees = By.id("workers");
-    private By parts = By.id("spares");
-    private By dealParties = By.id("prov_cus");
+    @FindBy(xpath = ".//*[@class = 'pull-left info']")
+    private WebElement user;
+    @FindBy(id = "deal")
+    private WebElement dealsMenu;
+    @FindBy(id = "dictionary")
+    private WebElement dictionary;
+    @FindBy(id = "apparat")
+    private WebElement devices;
+    @FindBy(id = "workers")
+    private WebElement employees;
+    @FindBy(id = "spares")
+    private WebElement parts;
+    @FindBy(id = "prov_cus")
+    private WebElement dealParties;
 
     public HomePage(WebDriver webDriver){
-        this.webDriver = webDriver;
-        action = new ActionWithWebElements(webDriver);
+        super(webDriver);
+    }
+
+    public boolean isUserDisplayed(){
+        return action.isDisplayedElement(user);
     }
     public DealsPage clickDealsButton(){
         action.clickButton(dealsMenu);
         return new DealsPage(webDriver);
     }
-    public boolean isUserDisplayed(){
-        return action.isDisplayedElement(user);
-    }
     public void clickDictionary(){
         action.clickButton(dictionary);
     }
-    public DevicesPage clickDevices(){
+    public void clickDevices(){
         action.clickButton(devices);
-        return new DevicesPage(webDriver);
     }
-    public EmployeesPage clickEmployees(){
+    public void clickEmployees(){
         action.clickButton(employees);
-        return new EmployeesPage(webDriver);
     }
     public void clickParts(){
         action.clickButton(parts);

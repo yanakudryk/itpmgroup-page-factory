@@ -1,32 +1,44 @@
 package pages;
 
-import libs.ActionWithWebElements;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import pages.basePage.BasePage;
 
-public class DealsPage {
-    private WebDriver webDriver;
-    private ActionWithWebElements action;
+public class DealsPage extends BasePage {
 
-    private By addButton = By.xpath("//*[@class='btn btn-info btn-sm']");
-    private By dealDay = By.id("deal_dealDate_date_day");
-    private By dealMonth = By.id("deal_dealDate_date_month");
-    private By dealYear = By.id("deal_dealDate_date_year");
-    private By dealHour = By.id("deal_dealDate_time_hour");
-    private By dealMinute = By.id("deal_dealDate_time_minute");
-    private By dealType = By.id("deal_dealType");
-    private By dealCustomer = By.id("deal_customer");
-    private By dealProvider = By.id("deal_provider");
-    private By createButton = By.xpath("//*[@class='btn btn-info']");
 
-    private By tableDateValue = By.xpath("//tbody/tr[last()]/td[1]");
-    private By tableTypeValue = By.xpath("//tbody/tr[last()]/td[2]");
-    private By tableBuyerValue = By.xpath("//tbody/tr[last()]/td[3]");
-    private By tableSupplier = By.xpath("//tbody/tr[last()]/td[4]");
+    @FindBy(xpath = "//*[@class='btn btn-info btn-sm']")
+    private WebElement addButton;
+    @FindBy(id = "deal_dealDate_date_day")
+     private WebElement dealDay;
+    @FindBy(id = "deal_dealDate_date_month")
+    private WebElement dealMonth;
+    @FindBy(id = "deal_dealDate_date_year")
+    private WebElement dealYear;
+    @FindBy(id = "deal_dealDate_time_hour")
+    private WebElement dealHour;
+    @FindBy(id = "deal_dealDate_time_minute")
+    private WebElement dealMinute;
+    @FindBy(id = "deal_dealType")
+    private WebElement dealType;
+    @FindBy(id = "deal_customer")
+    private WebElement dealCustomer;
+    @FindBy(id = "deal_provider")
+    private WebElement dealProvider;
+    @FindBy(xpath = "//*[@class='btn btn-info']")
+    private WebElement createButton;
+    @FindBy(xpath = "//tbody/tr[last()]/td[1]")
+    private WebElement tableDateValue;
+    @FindBy(xpath = "//tbody/tr[last()]/td[2]")
+    private WebElement tableTypeValue;
+    @FindBy(xpath = "//tbody/tr[last()]/td[3]")
+    private WebElement tableBuyerValue;
+    @FindBy(xpath = "//tbody/tr[last()]/td[4]")
+    private WebElement tableSupplier;
 
     public DealsPage(WebDriver webDriver){
-        this.webDriver = webDriver;
-        action = new ActionWithWebElements(webDriver);
+        super(webDriver);
     }
     public void clickAddButton(){
         action.clickButton(addButton);

@@ -1,25 +1,26 @@
 package pages;
 
-import libs.ActionWithWebElements;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import pages.basePage.BasePage;
 
-public class DevicesPage {
-
-    private WebDriver webDriver;
-    private ActionWithWebElements action;
-
-    private By addButton = By.xpath("//*[@class='btn btn-info btn-sm']");
-    private By apparatNumberField = By.id("apparat_apparatNumber");
-    private By apparatCommentField = By.id("apparat_apparatComment");
-    private By createButton = By.xpath("//*[@class='btn btn-info']");
-
-    private By tableNumberValue = By.xpath("//tbody/tr[last()]/td[1]");
-    private By tableCommentValue = By.xpath("//tbody/tr[last()]/td[2]");
+public class DevicesPage extends BasePage {
+    @FindBy(xpath = "//*[@class='btn btn-info btn-sm']")
+    private WebElement addButton;
+    @FindBy(id = "apparat_apparatNumber")
+    private WebElement apparatNumberField;
+    @FindBy(id = "apparat_apparatComment")
+    private WebElement apparatCommentField;
+    @FindBy(xpath = "//*[@class='btn btn-info']")
+    private WebElement createButton;
+    @FindBy(xpath = "//tbody/tr[last()]/td[1]")
+    private WebElement tableNumberValue;
+    @FindBy(xpath = "//tbody/tr[last()]/td[2]")
+    private WebElement tableCommentValue;
 
     public DevicesPage(WebDriver webDriver){
-        this.webDriver = webDriver;
-        action = new ActionWithWebElements(webDriver);
+        super(webDriver);
     }
     public void clickAddButton(){
         action.clickButton(addButton);

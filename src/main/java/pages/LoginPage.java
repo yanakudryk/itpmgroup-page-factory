@@ -1,32 +1,37 @@
 package pages;
 
-import libs.ActionWithWebElements;
-import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
+import libs.ConfigClass;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import pages.basePage.BasePage;
 
-public class LoginPage {
-    private WebDriver webDriver;
-    private ActionWithWebElements action;
-    private By emailField = By.name("_username");
-    private By passwordField = By.id("password");
-    private By enterButton =  By.xpath("//*[@type='submit']");
-    private String url = "http://v3.test.itpmgroup.com/";
-    private Logger logger;
+public class LoginPage extends BasePage {
+
+    @FindBy(name = "_username")
+    private WebElement emailField;
+
+    @FindBy(id = "password")
+    private WebElement passwordField;
+
+    @FindBy(xpath = "//*[@type='submit']")
+    private WebElement enterButton;
+
+    @FindBy(xpath = "//*[@class = 'login-logo']/a")
+    private WebElement loginText;
 
     public LoginPage(WebDriver webDriver){
-        this.webDriver = webDriver;
-        action = new ActionWithWebElements(webDriver);
-        logger = Logger.getLogger(getClass());
+        super(webDriver);
     }
 
     public void openPage(){
         try{
-            webDriver.get(url);
+            webDriver.get(ConfigClass.getCfgValue("base_url") + "/login");
+            logger.info("Page login was opened.");
         }
         catch (Exception ex){
             ex.printStackTrace();
-            logger.error("Something went wrong.");
+            logger.error("Can not open URL.");
         }
     }
     public void setEmail(String email){
@@ -37,10 +42,12 @@ public class LoginPage {
         action.inputText(passwordField, password);
     }
 
-    public HomePage login(String username, String password){
+    public void login(String username, String password){
         setEmail(username);
         setPassword(password);
         action.clickButton(enterButton);
-        return new HomePage(webDriver);
+    }
+    public String getLoginText(){
+        return action.getText(loginText);
     }
 }

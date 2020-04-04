@@ -1,19 +1,19 @@
 package employeesTests;
 
-import baseTests.BaseTests;
+import baseTests.AbstractBaseTests;
 import org.junit.Test;
-import pages.DealsPage;
 import pages.EmployeesPage;
 import pages.HomePage;
 
 import static org.junit.Assert.assertEquals;
 
-public class EmployeesTests extends BaseTests {
+public class EmployeesTestsAbstract extends AbstractBaseTests {
     @Test
     public void successfulEmployeeCreation(){
-        HomePage homePage = loginPage.login("Student", "909090");
+        loginPage.openPage();
+        loginPage.login("Student", "909090");
         homePage.clickDictionary();
-        EmployeesPage employeesPage = homePage.clickEmployees();
+        homePage.clickEmployees();
         String surname = "Surname";
         String name = "Name";
         String middleName = "Middle";

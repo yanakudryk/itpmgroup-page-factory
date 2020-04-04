@@ -1,28 +1,45 @@
 package pages;
 
-import libs.ActionWithWebElements;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import pages.basePage.BasePage;
 
-public class DealPartiesPage {
-    private WebDriver webDriver;
-    private ActionWithWebElements action;
+public class DealPartiesPage extends BasePage {
+    @FindBy (xpath = "//*[@class='btn btn-info btn-sm']")
+    private WebElement addButton;
 
-    private By addButton = By.xpath("//*[@class='btn btn-info btn-sm']");
-    private By custNameField = By.id("prov_cus_proCustName");
-    private By custAddressField = By.id("prov_cus_proCustAddress");
-    private By custPhoneField = By.id("prov_cus_proCustPhone");
-    private By privatePersonCheckBox = By.id("prov_cus_proCustIsFl");
-    private By isOurFirmCheckBox = By.id("prov_cus_isOurFirm");
-    private By createButton = By.xpath("//*[@class='btn btn-info']");
+    @FindBy(id = "prov_cus_proCustName")
+    private WebElement custNameField;
 
-    private By tableNameValue = By.xpath("//tbody/tr[last()]/td[1]");
-    private By tableAddressValue = By.xpath("//tbody/tr[last()]/td[2]");
-    private By tablePhoneValue = By.xpath("//tbody/tr[last()]/td[3]");
-    private By tablePrivatePersonValue = By.xpath("//tbody/tr[last()]/td[4]/span");
+    @FindBy(id ="prov_cus_proCustAddress")
+    private WebElement custAddressField;
+
+    @FindBy(id = "prov_cus_proCustPhone")
+    private WebElement custPhoneField;
+
+    @FindBy(id ="prov_cus_proCustIsFl")
+    private WebElement privatePersonCheckBox;
+
+    @FindBy(id ="prov_cus_isOurFirm")
+    private WebElement isOurFirmCheckBox;
+
+    @FindBy (xpath = "//*[@class='btn btn-info']")
+    private WebElement createButton;
+
+    @FindBy (xpath = "//tbody/tr[last()]/td[1]")
+    private WebElement tableNameValue;
+
+    @FindBy (xpath = "//tbody/tr[last()]/td[2]")
+    private WebElement tableAddressValue;
+
+    @FindBy (xpath = "//tbody/tr[last()]/td[3]")
+    private WebElement tablePhoneValue;
+
+    @FindBy (xpath = "//tbody/tr[last()]/td[4]/span")
+    private WebElement tablePrivatePersonValue;
 
     public DealPartiesPage(WebDriver webDriver){
-        this.webDriver = webDriver;
-        action = new ActionWithWebElements(webDriver);
+        super(webDriver);
     }
 }

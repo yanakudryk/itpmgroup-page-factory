@@ -1,7 +1,6 @@
 package libs;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -21,10 +20,10 @@ public class ActionWithWebElements {
         logger = Logger.getLogger(getClass());
     }
 
-    public void inputText(By by, String text){
+    public void inputText(WebElement element, String text){
         try {
-            webDriver.findElement(by).clear();
-            webDriver.findElement(by).sendKeys(text);
+            element.clear();
+            element.sendKeys(text);
             logger.info("Successful inputting.");
         }
         catch (Exception ex){
@@ -33,10 +32,10 @@ public class ActionWithWebElements {
         }
 
     }
-    public void clickButton(By by){
+    public void clickButton(WebElement element){
         try{
-            wait.until(ExpectedConditions.elementToBeClickable(by));
-            webDriver.findElement(by).click();
+            wait.until(ExpectedConditions.elementToBeClickable(element));
+            element.click();
             logger.info("Successful clicking. ");
         }
         catch (Exception ex){
@@ -45,10 +44,10 @@ public class ActionWithWebElements {
         }
 
     }
-    public boolean isDisplayedElement(By by){
+    public boolean isDisplayedElement(WebElement element){
         boolean result = false;
         try{
-            result = webDriver.findElement(by).isDisplayed();
+            result = element.isDisplayed();
             logger.info("Successful displaying checking.");
             return result;
         }
@@ -58,9 +57,9 @@ public class ActionWithWebElements {
             return result;
         }
     }
-    public void selectElementFromDropDown(By by, String value){
+    public void selectElementFromDropDown(WebElement element, String value){
         try{
-            Select dropDownValue = new Select(webDriver.findElement(by));
+            Select dropDownValue = new Select(element);
             dropDownValue.selectByVisibleText(value);
             logger.info("Successful selecting from drop down.");
         }
@@ -71,16 +70,16 @@ public class ActionWithWebElements {
 
     }
 
-    public void setCheckBox(By by, Boolean state){
+    public void setCheckBox(WebElement element, Boolean state){
         try{
             if(state){
-                if(!webDriver.findElement(by).isEnabled()){
-                    webDriver.findElement(by).click();
+                if(!element.isEnabled()){
+                    element.click();
                 }
             }
             if(!state){
-                if(webDriver.findElement(by).isEnabled()){
-                    webDriver.findElement(by).click();
+                if(element.isEnabled()){
+                    element.click();
                 }
             }
             logger.info("Successful checking check-box.");
@@ -91,10 +90,10 @@ public class ActionWithWebElements {
         }
     }
 
-    public String getText(By by){
+    public String getText(WebElement element){
         String result = null;
         try{
-            result = webDriver.findElement(by).getText();
+            result = element.getText();
         }
         catch (Exception ex){
             ex.printStackTrace();
@@ -103,10 +102,10 @@ public class ActionWithWebElements {
         return result;
     }
 
-    public boolean isElementEnabled(By by){
+    public boolean isElementEnabled(WebElement element){
         boolean result = false;
         try{
-            if (webDriver.findElement(by).isEnabled()){
+            if (element.isEnabled()){
                 result = true;
             }
         }
@@ -116,9 +115,9 @@ public class ActionWithWebElements {
         }
         return result;
     }
-    public void selectRadioButton(By by, String text){
+    public void selectRadioButton(List<WebElement> elements, String text){
         try {
-            List<WebElement> radioButtons = webDriver.findElements(by);
+            List<WebElement> radioButtons = elements;
             int numberOfRadioButtons = radioButtons.size();
             for (int i = 0; i < numberOfRadioButtons; i++) {
                 if (radioButtons.get(i).getText() == text) {

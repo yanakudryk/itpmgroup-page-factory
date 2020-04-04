@@ -1,26 +1,38 @@
 package pages;
 
-import libs.ActionWithWebElements;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import pages.basePage.BasePage;
 
-public class EmployeesPage {
-    private WebDriver webDriver;
-    private ActionWithWebElements action;
+public class EmployeesPage extends BasePage {
+    @FindBy(xpath = "//*[@class='btn btn-info btn-sm']")
+    private WebElement addButton;
 
-    private By addButton = By.xpath("//*[@class='btn btn-info btn-sm']");
-    private By workerSurnameField = By.xpath("//*[@id='workers_workerSurname']");
-    private By workerNameField = By.xpath("//*[@id='workers_workerName']");
-    private By workerMiddleNameField = By.xpath("//*[@id='workers_workerMiddleName']");
-    private By workerPhoneField = By.xpath("//*[@id='workers_workerPhone']");
-    private By createButton = By.xpath("//*[@class='btn btn-info']");
+    @FindBy(xpath = "//*[@id='workers_workerSurname']")
+    private WebElement workerSurnameField;
 
-    private By tableEmployeeValue = By.xpath("//tbody/tr[last()]/td[1]");
-    private By tablePhoneValue = By.xpath("//tbody/tr[last()]/td[2]");
+    @FindBy(xpath = "//*[@id='workers_workerName']")
+    private WebElement workerNameField;
+
+    @FindBy(xpath = "//*[@id='workers_workerMiddleName']")
+    private WebElement workerMiddleNameField;
+
+    @FindBy(xpath = "//*[@id='workers_workerPhone']")
+    private WebElement workerPhoneField;
+
+    @FindBy(xpath = "//*[@class='btn btn-info']")
+    private WebElement createButton;
+
+    @FindBy(xpath = "//tbody/tr[last()]/td[1]")
+    private WebElement tableEmployeeValue;
+
+    @FindBy(xpath = "//tbody/tr[last()]/td[2]")
+    private WebElement tablePhoneValue;
 
     public EmployeesPage(WebDriver webDriver){
-        this.webDriver = webDriver;
-        action = new ActionWithWebElements(webDriver);
+        super(webDriver);
+
     }
     public void clickAddButton(){
         action.clickButton(addButton);

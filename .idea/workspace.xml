@@ -2,9 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9215c07-e084-4faf-bc4d-fd30bbdd1292" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_file.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/ActionWithWebElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libs/ActionWithWebElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DealPartiesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DealPartiesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DealsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DealsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DevicesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DevicesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/EmployeesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/EmployeesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PartsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PartsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseTests/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTests/AbstractBaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dealsTests/DealsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dealsTests/DealsTestsAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/devicesTests/DevicesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/devicesTests/DevicesTestsAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/employeesTests/EmployeesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/employeesTests/EmployeesTestsAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/loginTests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loginTests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/libs/ActionWithWebElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/libs/ActionWithWebElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DealPartiesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DealPartiesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DealsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DealsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DevicesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DevicesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/EmployeesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/EmployeesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/PartsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/PartsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseTests/BaseTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dealsTests/DealsTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/devicesTests/DevicesTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/employeesTests/EmployeesTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/loginTests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/loginTests/LoginTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +72,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -54,13 +80,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Yana\IdeaProjects\kudryk\src\main\java\libs" />
       <recent name="C:\Users\Yana\IdeaProjects\kudryk\src" />
+      <recent name="C:\Users\Yana\IdeaProjects\kudryk\src\main\java\libs" />
       <recent name="C:\Users\Yana\IdeaProjects\kudryk\src\main\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeesTests.successfulEmployeeCreation">
-    <configuration name="DealsTests.successfulDealCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LoginTest.invalidLogin">
+    <configuration name="All in kudryk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kudryk" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DealsTestsAbstract.successfulDealCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kudryk" />
       <extension name="coverage">
         <pattern>
@@ -69,14 +103,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dealsTests" />
-      <option name="MAIN_CLASS_NAME" value="dealsTests.DealsTests" />
+      <option name="MAIN_CLASS_NAME" value="dealsTests.DealsTestsAbstract" />
       <option name="METHOD_NAME" value="successfulDealCreation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DevicesTests.successDeviceCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DevicesTestsAbstract.successDeviceCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kudryk" />
       <extension name="coverage">
         <pattern>
@@ -85,14 +119,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="devicesTests" />
-      <option name="MAIN_CLASS_NAME" value="devicesTests.DevicesTests" />
+      <option name="MAIN_CLASS_NAME" value="devicesTests.DevicesTestsAbstract" />
       <option name="METHOD_NAME" value="successDeviceCreation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeesTests.successfulEmployeeCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeesTestsAbstract.successfulEmployeeCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kudryk" />
       <extension name="coverage">
         <pattern>
@@ -101,24 +135,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="employeesTests" />
-      <option name="MAIN_CLASS_NAME" value="employeesTests.EmployeesTests" />
+      <option name="MAIN_CLASS_NAME" value="employeesTests.EmployeesTestsAbstract" />
       <option name="METHOD_NAME" value="successfulEmployeeCreation" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kudryk" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="loginTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="loginTests" />
-      <option name="MAIN_CLASS_NAME" value="loginTests.LoginTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeesTests.successfulEmployeeCreation" />
-        <item itemvalue="JUnit.DevicesTests.successDeviceCreation" />
-        <item itemvalue="JUnit.DealsTests.successfulDealCreation" />
         <item itemvalue="JUnit.LoginTest.invalidLogin" />
-        <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.All in kudryk" />
+        <item itemvalue="JUnit.EmployeesTestsAbstract.successfulEmployeeCreation" />
+        <item itemvalue="JUnit.DevicesTestsAbstract.successDeviceCreation" />
+        <item itemvalue="JUnit.DealsTestsAbstract.successfulDealCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -179,29 +198,37 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Inspections/0.0.1280.680/-1920.-237.1920.1040@0.0.1280.680" timestamp="1585389503711" />
+    <state x="-1265" y="209" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585996182696">
+      <screen x="-1920" y="-237" width="1920" height="1040" />
+    </state>
+    <state x="-1265" y="209" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585996182696" />
+    <state x="120" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585989984227">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="120" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680/-1920.-237.1920.1040@0.0.1280.680" timestamp="1585989984227" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1585390632359">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/-1920.-237.1920.1040@0.0.1280.680" timestamp="1585390632359" />
-    <state width="1877" height="369" key="GridCell.Tab.0.bottom" timestamp="1585780709743">
+    <state width="1877" height="369" key="GridCell.Tab.0.bottom" timestamp="1586007893600">
       <screen x="-1920" y="-237" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585780709743" />
+    <state width="1877" height="369" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1586007893600" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.-237.1920.1040@0.0.1280.680" timestamp="1585475856742" />
-    <state width="1877" height="369" key="GridCell.Tab.0.center" timestamp="1585780709742">
+    <state width="1877" height="369" key="GridCell.Tab.0.center" timestamp="1586007893600">
       <screen x="-1920" y="-237" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.0.center/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585780709742" />
+    <state width="1877" height="369" key="GridCell.Tab.0.center/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1586007893600" />
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/-1920.-237.1920.1040@0.0.1280.680" timestamp="1585475856742" />
-    <state width="1877" height="369" key="GridCell.Tab.0.left" timestamp="1585780709742">
+    <state width="1877" height="369" key="GridCell.Tab.0.left" timestamp="1586007893600">
       <screen x="-1920" y="-237" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.0.left/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585780709742" />
+    <state width="1877" height="369" key="GridCell.Tab.0.left/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1586007893600" />
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/-1920.-237.1920.1040@0.0.1280.680" timestamp="1585475856742" />
-    <state width="1877" height="369" key="GridCell.Tab.0.right" timestamp="1585780709743">
+    <state width="1877" height="369" key="GridCell.Tab.0.right" timestamp="1586007893600">
       <screen x="-1920" y="-237" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.0.right/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585780709743" />
+    <state width="1877" height="369" key="GridCell.Tab.0.right/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1586007893600" />
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/-1920.-237.1920.1040@0.0.1280.680" timestamp="1585475856742" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585779887731">
       <screen x="-1920" y="-237" width="1920" height="1040" />
@@ -224,20 +251,9 @@
     </state>
     <state x="-1707" y="-237" key="SettingsEditor/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585780696125" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1920.-237.1920.1040@0.0.1280.680" timestamp="1585470300556" />
-    <state x="-1264" y="107" key="com.intellij.ide.util.TipDialog" timestamp="1585779963811">
+    <state x="-1264" y="107" key="com.intellij.ide.util.TipDialog" timestamp="1585984265411">
       <screen x="-1920" y="-237" width="1920" height="1040" />
     </state>
-    <state x="-1264" y="107" key="com.intellij.ide.util.TipDialog/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585779963811" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pages/EmployeesPage.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="-1264" y="107" key="com.intellij.ide.util.TipDialog/0.0.1280.680/-1920.-237.1920.1040@-1920.-237.1920.1040" timestamp="1585984265411" />
   </component>
 </project>

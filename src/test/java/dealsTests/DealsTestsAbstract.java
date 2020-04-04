@@ -1,17 +1,19 @@
 package dealsTests;
 
-import baseTests.BaseTests;
+import baseTests.AbstractBaseTests;
 import org.junit.Test;
 import pages.DealsPage;
 import pages.HomePage;
 
 import static org.junit.Assert.assertEquals;
 
-public class DealsTests extends BaseTests {
+public class DealsTestsAbstract extends AbstractBaseTests {
+
     @Test
     public void successfulDealCreation(){
-        HomePage homePage = loginPage.login("Student", "909090");
-        DealsPage dealsPage = homePage.clickDealsButton();
+        loginPage.openPage();
+        loginPage.login("Student", "909090");
+        homePage.clickDealsButton();
         String day = "05";
         String month = "марта";
         String monthNum = "03";
