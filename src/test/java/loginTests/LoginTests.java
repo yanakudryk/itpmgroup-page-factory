@@ -7,9 +7,9 @@ import static org.junit.Assert.*;
 
 public class LoginTests extends AbstractBaseTests {
     @Test
-    public void validLogin(){
+    public void validLogin() {
         loginPage.openPage();
-        loginPage.login("Student", "909090");
+        loginPage.login("Studentt", "909090");
         assertTrue("User is not displayed", homePage.isUserDisplayed());
     }
 
