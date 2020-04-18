@@ -1,11 +1,11 @@
 package loginTests;
 
-import baseTests.AbstractBaseTests;
+import baseTests.BaseTests;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class LogoutTests extends AbstractBaseTests {
+public class LogoutTests extends BaseTests {
     @Test
     public void logout(){
         loginPage.openPage();

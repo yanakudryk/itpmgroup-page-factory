@@ -1,11 +1,11 @@
 package partsTests;
 
-import baseTests.AbstractBaseTests;
+import baseTests.BaseTests;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class PartsTests extends AbstractBaseTests {
+public class PartsTests extends BaseTests {
     @Test
     public void partCreation(){
         loginPage.openPage();

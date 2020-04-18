@@ -1,15 +1,15 @@
 package loginTests;
 
-import baseTests.AbstractBaseTests;
+import baseTests.BaseTests;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class LoginTests extends AbstractBaseTests {
+public class LoginTests extends BaseTests {
     @Test
     public void validLogin() {
         loginPage.openPage();
-        loginPage.login("Studentt", "909090");
+        loginPage.login("Student", "909090");
         assertTrue("User is not displayed", homePage.isUserDisplayed());
     }
 

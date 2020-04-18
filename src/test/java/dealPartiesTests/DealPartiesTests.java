@@ -1,12 +1,12 @@
 package dealPartiesTests;
 
-import baseTests.AbstractBaseTests;
+import baseTests.BaseTests;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class DealPartiesTests extends AbstractBaseTests {
+public class DealPartiesTests extends BaseTests {
     @Test
     public void dealPartPrivatePersonCreation(){
         loginPage.openPage();

@@ -6,7 +6,7 @@ import libs.SpreadsheetData;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import baseTests.AbstractBaseTests;
+import baseTests.BaseTests;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -17,8 +17,9 @@ import static org.junit.Assert.assertEquals;
 
 
 @RunWith(Parameterized.class)
-public class InValidLoginTestWithPageObjectWithExcel extends AbstractBaseTests {
-    private String login, pass;
+public class InValidLoginTestWithPageObjectWithExcel extends BaseTests {
+    private final String login;
+    private final String pass;
 
     public InValidLoginTestWithPageObjectWithExcel(String login, String pass) {
         this.login = login;
